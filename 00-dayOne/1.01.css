@@ -1,0 +1,75 @@
+body{
+    background-color: #d0d0d0;
+    padding: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+#mainTitle{
+    text-align: center;
+}
+
+.TTaL h1{
+    color: lightgreen;
+    text-align:center;
+}
+
+.TTaL h3{
+    color:blue;
+}
+
+.TTaL p{
+    color:red;
+}
+
+.TTaL{
+    border:Thick solid black;
+    border-radius:10px;
+    background-color:grey;
+}
+
+.TTaL div{
+    background-color:lightgrey;
+    border:solid black;
+    border-radius:10px;
+    text-align:center;
+    display:inline-block;
+    
+}
+
+/* Instructor Answer */
+
+div.main{
+    border: 2em solid black;
+    border-radius:10px;
+    background-color:darkgrey;
+}
+
+#title{
+    text-align:center;
+    color:lightgreen;
+}
+
+.main h3{
+    color:blue;
+}
+
+.main p{
+    color:red;
+}
+
+.truthlie{
+    text-align:center;
+    background-color: lightgrey;
+    border:2px solid grey;
+    border-radius: 5px;
+    padding:5px;
+}
+
+.align{
+    display:flex;
+    justify-content:space-evenly;
+    padding:5px;
+}
+
+/* End Instructor Answer */
