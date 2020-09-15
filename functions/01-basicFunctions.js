@@ -48,6 +48,7 @@ let first = function funcTwo(){
 }
 
 first();
+//console.log(first);
 
 //? Anonymous Function
 // Anonymous Functions are stored in memory but the runtime doesnt't automatically create a reference to it.
@@ -58,3 +59,26 @@ let anon = function(){
 
 anon();
 
+//? Parameters
+// Allow us to accept information alreadu declared.
+
+function parameterFunc(num){
+    console.log(num);
+}
+
+parameterFunc(2);
+
+// Coding doodle
+
+function d20(sides){
+    sides = 20;
+    let result_d20 = Math.floor(Math.random() * (sides) + 1);
+    if (result_d20 == 20) {
+        console.log(`A critical success with a ${result_d20} from a ${sides} sided dice!`)
+    } else if (result_d20 <= 19 && result_d20 >= 2) {
+        console.log(`You roll a ${result_d20} from a ${sides} sided dice.`);
+    } else {
+        console.log(`Oof! a natural ${result_d20} from a ${sides} sided dice.`);
+    }
+}
+d20();
